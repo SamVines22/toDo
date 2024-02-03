@@ -1,0 +1,58 @@
+html {
+    height: 100%;
+}
+body {
+    background-color: red;
+    height: 100%;
+}
+
+.content {
+    height: 100%;
+}
+
+.header {
+    background-color: blue;
+    height: 20%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+}
+
+#addProject {
+    width: 50%;
+    height: 20%;
+    padding: 5%;
+}
+
+.projectHolder {
+    display: grid;
+    height: 70%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   
+}
+
+.item {
+    min-height: 25%;
+    background-color: white;
+    border: 1px solid black;
+    padding: 2%;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.details {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    padding-top: 2%;
+    
+}
+
+.project {
+    padding: 2%;
+    font-size: 2rem;
+}
